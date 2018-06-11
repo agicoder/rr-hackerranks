@@ -4,12 +4,13 @@ import './App.css';
 
 class App extends Component {
   render() {
-    var helloWorld = "Road to learn Reactjs"
-    //const and let
-    // allowed
+    const helloWorld = "Road to learn Reactjs"
+  //const and let
+  //p15 should use const over var
   const halloWorld = {
     text: 'Welcome to the Road to learn React'
     };
+  // can change value inside  
   halloWorld.text = 'Bye Bye React';
     return (
       <div className="App">
