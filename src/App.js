@@ -64,9 +64,7 @@ class App extends Component {
               <span>{this.state.name} </span>
               <span>{this.state.age} </span>
               <span>
-                <button onClick={function () {
-                  
-                console.log(item.objectID)}}
+                <button onClick={console.log(item.objectID)}
                 
                 type="button">
                   Dismiss
