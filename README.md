@@ -1,6 +1,8 @@
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
-Road to learn react . pdf
+
+== Road to learn react . pdf ==
+** React in Big picture: 
+An React component includes elements which are HTML tags, when an element changes, the whole component is re-rendered, ...
 
 Chapter 1: Introduction recap
   React
@@ -17,7 +19,11 @@ render methods
 – arrow functions can be used to keep your functions concise
 – classes are used to define components in React by extending them
 
+Chapter 2: Basic (in) React
+- state: 
+  - Every time you change your component state, the render() method of your component will run again. 
 * ==============================================
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 Create React App is divided into two packages:
 
 * `create-react-app` is a global command-line utility that you use to create new projects.
