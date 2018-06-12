@@ -6,7 +6,7 @@ import ExplainBindingsComponent from "./ExplainBindingsComponent";
 import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
-    <ExplainBindingsComponent />, 
+    <App />, 
     document.getElementById('root'));
 // Hot Module Replacement ( HMR) reload react app but don't do  page refresh
 if (module.hot) {
